@@ -3,25 +3,25 @@ Copy the dist folder to any other location after build.
 
 **Usage**
 ```js
-WebPackDeployAfterBuild({ from: "Directory", to: "Directory", clearDestDir: true })
+WebPackDeployAfterBuild({ from: "Directory", to: ["Directory1","Directory2"],suffixPublicPath:true, clearDestDir: true })
 ```
 
 **Install**
 
 ```shell
-npm install --save webpack-deploy-after-build
+npm install --save webpack-deploy-after-build2
 ```
 
 **Include in webpack.config.js**
 ```js
-var WebPackDeployAfterBuild = require('webpack-deploy-after-build');
+var WebPackDeployAfterBuild = require('webpack-deploy-after-build2');
 ```
 
 **Add plugin webpack.config.js**
 ```js
 var path = require('path')
 var webpack = require('webpack')
-var WebPackDeployAfterBuild = require('webpack-deploy-after-build');
+var WebPackDeployAfterBuild = require('webpack-deploy-after-build2');
 
 module.exports = {
 
@@ -47,7 +47,7 @@ if (process.env.NODE_ENV === 'production') {
         }),
         new WebPackDeployAfterBuild({
             from: path.resolve(__dirname, './dist'),
-            to: '~/Git/website/vue/'
+            to: ['~/Git/website/vue/']
         })
     ])
 }
