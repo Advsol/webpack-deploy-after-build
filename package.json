@@ -1,6 +1,6 @@
 {
   "name": "webpack-deploy-after-build",
-  "version": "1.0.5",
+  "version": "0.1",
   "description": "Copy the dist folder to any other location after build.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitExploiter/webpack-deploy-after-build.git"
+    "url": "git+https://github.com/Advsol/webpack-deploy-after-build.git"
   },
   "keywords": [
     "webpack",
@@ -18,14 +18,14 @@
     "build",
     "dist"
   ],
-  "author": "Jorge Diaz Gacita <jorgedg1984@gmail.com>",
+  "author": "pbelenkin",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/bitExploiter/webpack-deploy-after-build/issues"
+    "url": "https://github.com/Advsol/webpack-deploy-after-build/webpack-deploy-after-build/issues"
   },
-  "homepage": "https://github.com/bitExploiter/webpack-deploy-after-build#readme",
+  "homepage": "https://github.com/Advsol/webpack-deploy-after-build/webpack-deploy-after-build#readme",
   "dependencies": {
     "del": "^3.0.0",
-    "ncp": "^2.0.0"
+    "fs-extra": "^5.0.0"
   }
 }
