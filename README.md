@@ -14,19 +14,19 @@ WebPackDeployAfterBuild({
 **Install**
 
 ```shell
-npm install --save webpack-deploy-after-build2
+npm install --save webpack-deploy-after-build-2
 ```
 
 **Include in webpack.config.js**
 ```js
-var WebPackDeployAfterBuild = require('webpack-deploy-after-build2');
+var WebPackDeployAfterBuild = require('webpack-deploy-after-build-2');
 ```
 
 **Add plugin webpack.config.js**
 ```js
 var path = require('path')
 var webpack = require('webpack')
-var WebPackDeployAfterBuild = require('webpack-deploy-after-build2');
+var WebPackDeployAfterBuild = require('webpack-deploy-after-build-2');
 
 module.exports = {
 
